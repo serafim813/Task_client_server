@@ -37,7 +37,7 @@
 
 Для запуска сервера можно воспользоваться командой :
 
-    $ python run_server.py
+    $ python3 run_server.py
    
 Остановка по команде с клавиатуры ^c.
 
@@ -55,14 +55,14 @@
 
 Пример запуска задачи:
 
-    $ python client.py -a run -n 1 -d пример -w true
+    $ python3 client.py -a run -n 1 -d пример -w true
     Result of task [1]: ремирп
     Status: success
 
-    $ python client.py -a run -n 1 -d пример
+    $ python3 client.py -a run -n 1 -d пример
     Task [1] added to the queue. Task id is #1
-    $ python client.py -a status -d 1
+    $ python3 client.py -a status -d 1
     Status of task #1: success
-    $ python client.py -a result -d 1
+    $ python3 client.py -a result -d 1
     Result of task #1: ремирп
     Status: success

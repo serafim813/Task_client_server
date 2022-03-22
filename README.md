@@ -57,7 +57,7 @@
     Status: success
 
     $ python client.py -a run -n 1 -d пример
-  Task [1] added to the queue. Task id is #1
+    Task [1] added to the queue. Task id is #1
     $ python client.py -a status -d 1
     Status of task #1: success
     $ python client.py -a result -d 1
